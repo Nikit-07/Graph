@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4e7e5fca8b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graph</title>
+</head>
+<body>
+
+    <h1>My Project</h1>
+    <h3>Different Graphs & Dark-Mode/Light-Mode Toggle Button </h3>
+
+    <!-- Graph -->
+
+    <div class="container">
+        <canvas id="myChart"></canvas>
+        <canvas id="chart1"></canvas>
+    </div>
+
+    <div class="container1">
+        <canvas id="chart2"></canvas>
+    </div>
+
+    <div class="container2">
+        <canvas id="chart3"></canvas>
+        <canvas id="chart4"></canvas>
+    </div>
+
+    <div class="container3">
+        <canvas id="chart5"></canvas>
+
+    </div>
+
+<!-- Toggle Button -->
+    <div id="box">
+        <input type="checkbox" id="checkbox" class="checkbox">
+        <label for="checkbox" class="label">
+            <i class="fa-solid fa-moon"></i>
+            <i class="fa-solid fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+ 
+
+
+    <script src="app.js"></script>
+</body>
+</html>
